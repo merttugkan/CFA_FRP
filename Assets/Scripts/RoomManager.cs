@@ -2,7 +2,6 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine.SceneManagement;
-using LootLocker.Requests;
 
 public class RoomManager : MonoBehaviourPunCallbacks
 {
