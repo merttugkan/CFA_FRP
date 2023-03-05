@@ -22,19 +22,15 @@ public class WebTRy : MonoBehaviour
         StartCoroutine(Register("Tugkan", "123456"));
     }
 
-    public string testUri = "http://cfafrp.rf.gd/Test.php";
-    public string loginUri = "http://cfafrp.rf.gd/Login.php";
-    public string registerUri = "http://cfafrp.rf.gd/Register.php";
-
-    //public string testUri = "http://localhost/Test.php";
-    //public string loginUri = "http://localhost/Login.php";
-    //public string registerUri = "http://localhost/Register.php";
+    public string testUri = "";
+    public string loginUri = "";
+    public string registerUri = "";
 
     IEnumerator Test(string a)
     {
+
         using (UnityWebRequest webRequest = UnityWebRequest.Get(testUri))
         {
-            // Request and wait for the desired page.
             yield return webRequest.SendWebRequest();
 
             if (webRequest.result == UnityWebRequest.Result.Success)

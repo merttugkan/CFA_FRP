@@ -2422,9 +2422,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   webpage: 
-  testUri: https://cfafrp.rf.gd/Test.php
-  loginUri: https://cfafrp.rf.gd/Login.php
-  registerUri: https://cfafrp.rf.gd/Register.php
+  testUri: http://www.merttugkan.online/Test.php
+  loginUri: http://www.merttugkan.online/Login.php
+  registerUri: http://www.merttugkan.online/Register.php
 --- !u!1 &2046090200
 GameObject:
   m_ObjectHideFlags: 0
