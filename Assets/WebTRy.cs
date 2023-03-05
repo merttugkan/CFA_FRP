@@ -22,13 +22,13 @@ public class WebTRy : MonoBehaviour
         StartCoroutine(Register("Tugkan", "123456"));
     }
 
-    //public string testUri = "http://185.27.134.60/Test.php";
-    //public string loginUri = "http://185.27.134.60/Login.php";
-    //public string registerUri = "http://185.27.134.60/Register.php";
+    public string testUri = "http://cfafrp.rf.gd/Test.php";
+    public string loginUri = "http://cfafrp.rf.gd/Login.php";
+    public string registerUri = "http://cfafrp.rf.gd/Register.php";
 
-    public string testUri = "http://localhost/Test.php";
-    public string loginUri = "http://localhost/Login.php";
-    public string registerUri = "http://localhost/Register.php";
+    //public string testUri = "http://localhost/Test.php";
+    //public string loginUri = "http://localhost/Login.php";
+    //public string registerUri = "http://localhost/Register.php";
 
     IEnumerator Test(string a)
     {
@@ -43,6 +43,7 @@ public class WebTRy : MonoBehaviour
             }
             else
             {
+                Debug.Log("error");
                 Debug.Log(webRequest.error);
             }
             webRequest.Dispose();
@@ -66,6 +67,7 @@ public class WebTRy : MonoBehaviour
             }
             else
             {
+                Debug.Log("error");
                 Debug.Log(webRequest.error);
             }
             webRequest.Dispose();
@@ -89,6 +91,7 @@ public class WebTRy : MonoBehaviour
             }
             else
             {
+                Debug.Log("error");
                 Debug.Log(webRequest.error);
             }
             webRequest.Dispose();
